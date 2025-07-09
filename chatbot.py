@@ -12,7 +12,7 @@ with open("chunks.pkl", "rb") as f:
 embedder = SentenceTransformer("all-MiniLM-L6-v2")
 
 # Gemini config
-genai.configure(api_key="AIzaSyAJx29bCioUOBP7tjP9t7Nmjuxu3d3dyAg")
+genai.configure(api_key="YOUR_GEMINI_API_KEY")
 model = genai.GenerativeModel("gemini-2.0-flash")
 
 def get_response(user_query):
