@@ -34,7 +34,3 @@ Answer:"""
 
     response = model.generate_content(prompt)
     return response.text
-
-
-
-# API KEY = AIzaSyBZE1JEguMawQWXghb7sG18lCtb
